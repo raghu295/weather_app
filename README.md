@@ -8,15 +8,39 @@ This is a simple weather application built with React and Vite. It allows users 
 - Displays temperature, location, humidity, and wind speed
 - Shows weather icons based on the current weather conditions
 
+### Prerequisites
+
+- **Node.js:** Ensure you have Node.js installed.
+- **OpenWeatherMap API Key:** Sign up at [OpenWeatherMap](https://openweathermap.org/) to get your API key.
+
 ## Project Structure
-weather_app/ ├── .gitignore ├── .env ├── eslint.config.js ├── index.html ├── package.json ├── public/ │ └── vite.svg ├── README.md ├── src/ │ ├── App.jsx │ ├── assets/ │ │ ├── clear.png │ │ ├── cloud.png │ │ ├── drizzle.png │ │ ├── humidity.png │ │ ├── rain.png │ │ ├── search.png │ │ ├── snow.png │ │ └── wind.png │ ├── components/ │ │ ├── Weather.css │ │ └── Weather.jsx │ ├── index.css │ └── main.jsx ├── vite.config.js
+weather_app/
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── components/
+│   │   ├── Weather.jsx
+│   │   └── Weather.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .env
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+
+## Technologies Used
+- React: For building the user interface.
+- Vite: For fast development and optimized builds.
+- OpenWeatherMap API: For retrieving current weather data.
 
 
 ## Installation
 
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/raghu295/weather_app.git
 
 2. Navigate to project Directory
 - cd weather_app
